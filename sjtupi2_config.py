@@ -90,7 +90,6 @@ path_patterns = [
     ['SKIP',  r'^\/opt\/apps\/cmake\/.*'],
     ['SKIP',  r'^\/opt\/apps\/autotools\/.*'],
     ['SKIP',  r'^\/opt\/apps\/intel[0-9][0-9_]*\/mvapich2\/.*'],
-    ['SKIP',  r'^\/opt\/apps\/intel[0-9][0-9_]*\/cray_mpich\/.*'],
     ['SKIP',  r'^\/opt\/apps\/intel[0-9][0-9_]*\/impi\/.*'],
     ['SKIP',  r'^\/opt\/apps\/gcc[0-9][0-9_]*\/mvapich2\/.*'],
     ['SKIP',  r'^\/home1\/apps\/intel\/.*'],
