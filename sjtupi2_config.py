@@ -106,6 +106,7 @@ path_patterns = [
     ['SKIP',  r'.*\/hydra_pmi_proxy'],
     ['SKIP',  r'.*\/ompi_info'],
     ['SKIP',  r'.*\/orterun'],
+    ['SKIP',  r'.*\/orted'],
     ['SKIP',  r'.*\/conftest'],
     ['SKIP',  r'.*\/CMakeTmp\/cmTryCompileExec[0-9][0-9]*'],
     ['SKIP',  r'.*\/CMakeTmp\/cmTC_[a-f0-9][a-f0-9]*'],
