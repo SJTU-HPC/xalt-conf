@@ -11,13 +11,13 @@ import sys
 
 hostname_patterns = [
   # cas[001-656]
-  ['KEEP', r'^cas.*cn$'],
+  ['KEEP', r'^cas.*'],
   # vol[1-8]
-  ['KEEP', r'^(vol0[1-8])\.pi\.sjtu\.edu\.cn$'],
+  ['KEEP', r'^vol.*'],
   # huge[1-2]
-  ['KEEP', r'^(huge[1-2])\.pi\.sjtu\.edu\.cn$'],
+  ['KEEP', r'^huge.*'],
   # mass01
-  ['KEEP', 'mass01.pi.sjtu.edu.cn']
+  ['KEEP', '^mass.*']
 ]
 
 #------------------------------------------------------------
