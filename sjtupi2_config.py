@@ -53,6 +53,7 @@ path_patterns = [
     ['PKGS',  r'.*\/python[0-9.]*'],
     ['KEEP',  r'^\/bin\/perl'],
     ['KEEP',  r'^\/usr\/bin\/perl'],
+    ['KEEP',  r'^\/usr\/bin\/singularity'],
     ['SKIP',  r'^\/usr\/bin\/cp'],
     ['SKIP',  r'^\/usr\/bin\/mv'],
     ['SKIP',  r'^\/usr\/bin\/gawk'],
