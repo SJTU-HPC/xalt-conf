@@ -12,12 +12,18 @@ import sys
 hostname_patterns = [
   # cas[001-656]
   ['KEEP', r'^cas.*'],
-  # vol[1-8]
-  ['KEEP', r'^vol.*'],
+  # vol0[1-8]
+  ['KEEP', r'^vol0.*'],
   # huge[1-2]
   ['KEEP', r'^huge.*'],
-  # mass01
-  ['KEEP', '^mass.*']
+  # 192c6t
+  ['KEEP', '^mass.*'],
+  # 64c512g
+  ['KEEP', '^node.*'],
+  # a100
+  ['KEEP', '^gpu.*'],
+  # arm128c256g
+  ['KEEP', '^kp.*']
 ]
 
 #------------------------------------------------------------
